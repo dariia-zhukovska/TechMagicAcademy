@@ -12,6 +12,7 @@ import { MoviesListComponent } from './components/movies-list/movies-list.compon
 import { HeaderComponent } from './components/header/header.component';
 import { MovieDetailsComponent } from './components/movie-details/movie-details.component';
 import { SearchFormComponent } from './components/search-form/search-form.component';
+import { AppTimePipe } from './pipes/app-time.pipe';
 // import { FormContainerComponent } from './components/form-container/form-container.component';
 
 @NgModule({
@@ -23,6 +24,7 @@ import { SearchFormComponent } from './components/search-form/search-form.compon
     HeaderComponent,
     MovieDetailsComponent,
     SearchFormComponent,
+    AppTimePipe,
 
   ],
   imports: [
