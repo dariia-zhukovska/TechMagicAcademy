@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin: 20px;
+  font-size: 25px;
+
+  .link {
+    padding: 10px;
+    text-decoration: none;
+  }
+  .link:hover {
+    background-color: rgb(166, 174, 247);
+    border-radius: 8px;
+  }
+
+  .active {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,25 @@
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+  height: 40px;
+}
+
+.search-input {
+  margin-left: 10px;
+  width: 40%;
+  font-size: 20px;
+  background-color: rgba(231, 225, 225, 0.945);
+  border-radius: 8px;
+  border: transparent;
+}
+
+.search-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 4px;
+  font-size: 25px;
+  border: 1px solid #000;
+  border-radius: 8px;
+}

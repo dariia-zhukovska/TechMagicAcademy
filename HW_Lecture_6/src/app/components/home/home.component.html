@@ -1,0 +1,20 @@
+<div class="movie-details-container" *ngIf="movie">
+  <img class="poster-path" src="{{imgUrl + movie.poster_path}}" alt="movie_img">
+  <div class="movie-info">
+    <div>
+      <span>Movie Title: </span><span>{{ movie.title }}</span>
+    </div>
+    <div>
+      <span>Movie Votes: </span><span>{{ movie.vote_average }}</span>
+    </div>
+    <div>
+      <span>Movie Release Date: </span><span>{{ movie.release_date}}</span>
+    </div>
+    <div>
+      <span>Budget: </span><span>{{ movie.budget | currency: 'USD'}}</span>
+    </div>
+    <div>
+      <span>Duration: </span><span>{{ movie.runtime }} min </span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<app-search-form (changed)="filterMovies($event)"></app-search-form>
+<div class="movie-list">
+  <div *ngIf="movies?.length">
+    <h2 class="movie-list-title">Movie List: </h2>
+    <div *ngFor="let movie of movies">
+      <a [routerLink]="'/movie/' + movie.id" class="movie-link"> {{ movie.title }} </a>
+    </div>
+  </div>
+</div>

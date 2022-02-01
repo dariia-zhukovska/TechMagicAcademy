@@ -1,0 +1,15 @@
+.poster-path {
+  height: 450px;
+  width: 315px;
+}
+
+.movie-details-container {
+  display: flex;
+}
+
+.movie-info {
+  display: inline-flexbox;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 40px;
+}
