@@ -1,0 +1,21 @@
+{
+  "test": {
+    "database": "mongodb+srv://dr_acula_x_x:admin@cluster0.eh5ip.mongodb.net/tc?retryWrites=true&w=majority",
+    "dbName": "tc",
+    "dbConfig": {
+      "useUnifiedTopology": true,
+      "useNewUrlParser": true
+    },
+    "seed": false,
+    "debug": true
+  },
+  "local": {
+    "database": "mongodb+srv://dr_acula_x_x:admin@cluster0.eh5ip.mongodb.net/tc?retryWrites=true&w=majority",
+    "dbName": "tc",
+    "seed": true,
+    "dbConfig": {
+      "useUnifiedTopology": true,
+      "useNewUrlParser": true
+    }
+  }
+}
